@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Fira Code', monospace;
+  font-weight: 300;
+}
+
+body {
+  background: #000000;
+  color: #FFFFFF;
+}
+
+#container {
+  
+}
+
+header {
+  margin: 15vh 0 0 0;
+}
+
+header .avatar-img img {
+  width: 100%;
+  height: 20vh;
+  background-size: cover;
+  background-position: center;
+  object-fit: cover;
+}
+
+header .name-user {
+  margin: 15px 25px;
+}
+
+header .name-user h1 {
+  font-size: 40px;
+  font-family: 'Fira Code', monospace;
+}
+
+header .name-user h1 span {
+  font-family: 'Apple Color Emoji';
+}
+
+header .name-user p {
+  margin: 8px 0;
+  text-align: justify;
+  font-family: 'Fira Code', monospace;
+}
+
+header .name-user p span {
+  animation: _ 1s infinite
+}
+
+@keyframes _ {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+}
+
+header .button-link {
+  margin: 25px;
+  display: flex;
+}
+
+header .button-link a {
+  width: 50%;
+  padding: 15px 0;
+  margin: 0 8px;
+  color: #FF2525;
+  background: #353535;
+  text-align: center;
+  text-decoration: none;
+  transition: opacity 0.2s ease;
+  opacity: 1;
+}
+
+header .icon {
+  margin-top: 10vh;
+  display: flex;
+  justify-content: center;
+}
+
+header .icon a {
+  width: 70px;
+  padding: 15px;
+  font-size: 25px;
+  border-radius: 50%;
+  aspect-ratio: 1 / 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  background: #0D0D0D;
+  color: #FFFFFF;
+  text-decoration: none;
+  transition: ease-out 0.2s all;
+}
+
+header .icon a:hover {
+  box-shadow: 0px 0px 80px #FFFFFF;
+}
